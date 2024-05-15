@@ -1,0 +1,384 @@
+# Visit https://docs.rilldata.com/reference/project-files to learn more about Rill project files.
+
+title: Omriecommparts Rill Model 1
+model: OmrieCommParts_rill_model_1
+dimensions:
+  - label: Number
+    column: Number
+    description: ""
+  - label: Description
+    column: Description
+    description: ""
+  - label: Partstatecode
+    column: PartStateCode
+    description: ""
+  - label: Partstate
+    column: PartState
+    description: ""
+  - label: Manageorganization
+    column: ManageOrganization
+    description: ""
+  - label: Partcategorycode
+    column: PartCategoryCode
+    description: ""
+  - label: Partcategory
+    column: PartCategory
+    description: ""
+  - label: Partsystemtypecode
+    column: PartSystemTypeCode
+    description: ""
+  - label: Partsystemtype
+    column: PartSystemType
+    description: ""
+  - label: Partgradecode
+    column: PartGradeCode
+    description: ""
+  - label: Partgrade
+    column: PartGrade
+    description: ""
+  - label: Parttypecode
+    column: PartTypeCode
+    description: ""
+  - label: Parttype
+    column: PartType
+    description: ""
+  - label: Partgroupid
+    column: PartGroupId
+    description: ""
+  - label: Partgroupcode
+    column: PartGroupCode
+    description: ""
+  - label: Partgroup
+    column: PartGroup
+    description: ""
+  - label: Partclassid
+    column: PartClassId
+    description: ""
+  - label: Partclasscode
+    column: PartClassCode
+    description: ""
+  - label: Partclass
+    column: PartClass
+    description: ""
+  - label: Description1
+    column: Description1
+    description: ""
+  - label: Description2
+    column: Description2
+    description: ""
+  - label: Description3
+    column: Description3
+    description: ""
+  - label: Description4
+    column: Description4
+    description: ""
+  - label: Description5
+    column: Description5
+    description: ""
+  - label: Figurenumber
+    column: FigureNumber
+    description: ""
+  - label: Partpressureclassid
+    column: PartPressureClassId
+    description: ""
+  - label: Partpressureclasscode
+    column: PartPressureClassCode
+    description: ""
+  - label: Partpressureclass
+    column: PartPressureClass
+    description: ""
+  - label: Partscheduleid
+    column: PartScheduleId
+    description: ""
+  - label: Partschedulecode
+    column: PartScheduleCode
+    description: ""
+  - label: Partschedule
+    column: PartSchedule
+    description: ""
+  - label: Partschedule2id
+    column: PartSchedule2Id
+    description: ""
+  - label: Partschedule2code
+    column: PartSchedule2Code
+    description: ""
+  - label: Partschedule2
+    column: PartSchedule2
+    description: ""
+  - label: Partshapecode
+    column: PartShapeCode
+    description: ""
+  - label: Partshape
+    column: PartShape
+    description: ""
+  - label: Partsize2id
+    column: PartSize2Id
+    description: ""
+  - label: Partsize2code
+    column: PartSize2Code
+    description: ""
+  - label: Partsize2
+    column: PartSize2
+    description: ""
+  - label: Partsize3id
+    column: PartSize3Id
+    description: ""
+  - label: Partsize3code
+    column: PartSize3Code
+    description: ""
+  - label: Partsize3
+    column: PartSize3
+    description: ""
+  - label: Partsize4id
+    column: PartSize4Id
+    description: ""
+  - label: Partsize4code
+    column: PartSize4Code
+    description: ""
+  - label: Partsize4
+    column: PartSize4
+    description: ""
+  - label: Partmaterialid
+    column: PartMaterialId
+    description: ""
+  - label: Partmaterialcode
+    column: PartMaterialCode
+    description: ""
+  - label: Partmaterial
+    column: PartMaterial
+    description: ""
+  - label: Partendconnectionid
+    column: PartEndConnectionId
+    description: ""
+  - label: Partendconnectioncode
+    column: PartEndConnectionCode
+    description: ""
+  - label: Partendconnection
+    column: PartEndConnection
+    description: ""
+  - label: Parttrimid
+    column: PartTrimId
+    description: ""
+  - label: Parttrimcode
+    column: PartTrimCode
+    description: ""
+  - label: Parttrim
+    column: PartTrim
+    description: ""
+  - label: Partpackingid
+    column: PartPackingId
+    description: ""
+  - label: Partpackingcode
+    column: PartPackingCode
+    description: ""
+  - label: Partpacking
+    column: PartPacking
+    description: ""
+  - label: Partoperatorid
+    column: PartOperatorId
+    description: ""
+  - label: Partoperatorcode
+    column: PartOperatorCode
+    description: ""
+  - label: Partoperator
+    column: PartOperator
+    description: ""
+  - label: Partspecialtestingid
+    column: PartSpecialTestingId
+    description: ""
+  - label: Partspecialtestingcod
+    column: PartSpecialTestingCod
+    description: ""
+  - label: Partspecialtesting
+    column: PartSpecialTesting
+    description: ""
+  - label: Htsid
+    column: HTSId
+    description: ""
+  - label: Htscode
+    column: HTSCode
+    description: ""
+  - label: Hts
+    column: HTS
+    description: ""
+  - label: Partportid
+    column: PartPortId
+    description: ""
+  - label: Partportcode
+    column: PartPortCode
+    description: ""
+  - label: Partport
+    column: PartPort
+    description: ""
+  - label: Partstyleid
+    column: PartStyleId
+    description: ""
+  - label: Partstylecode
+    column: PartStyleCode
+    description: ""
+  - label: Partstyle
+    column: PartStyle
+    description: ""
+  - label: Partseatid
+    column: PartSeatId
+    description: ""
+  - label: Partseatcode
+    column: PartSeatCode
+    description: ""
+  - label: Partseat
+    column: PartSeat
+    description: ""
+  - label: Partoringid
+    column: PartORingId
+    description: ""
+  - label: Partoringcode
+    column: PartORingCode
+    description: ""
+  - label: Partoring
+    column: PartORing
+    description: ""
+  - label: Partfiresafeid
+    column: PartFireSafeId
+    description: ""
+  - label: Partfiresafecode
+    column: PartFireSafeCode
+    description: ""
+  - label: Partfiresafe
+    column: PartFireSafe
+    description: ""
+  - label: Partseatinsertid
+    column: PartSeatInsertId
+    description: ""
+  - label: Partseatinsertcode
+    column: PartSeatInsertCode
+    description: ""
+  - label: Partseatinsert
+    column: PartSeatInsert
+    description: ""
+  - label: Partfaceid
+    column: PartFaceId
+    description: ""
+  - label: Partfacecode
+    column: PartFaceCode
+    description: ""
+  - label: Partface
+    column: PartFace
+    description: ""
+  - label: Partalloyid
+    column: PartAlloyId
+    description: ""
+  - label: Partalloycode
+    column: PartAlloyCode
+    description: ""
+  - label: Partalloy
+    column: PartAlloy
+    description: ""
+  - label: Partspecificationcodeid
+    column: PartSpecificationCodeId
+    description: ""
+  - label: Partspecificationcode
+    column: PartSpecificationCode
+    description: ""
+  - label: Partspecification
+    column: PartSpecification
+    description: ""
+  - label: Partspecifictypeid
+    column: PartSpecificTypeId
+    description: ""
+  - label: Partspecifictypecode
+    column: PartSpecificTypeCode
+    description: ""
+  - label: Partspecifictype
+    column: PartSpecificType
+    description: ""
+  - label: Sizerange
+    column: SizeRange
+    description: ""
+  - label: Uomsalecode
+    column: UOMSaleCode
+    description: ""
+  - label: Uomsale
+    column: UOMSale
+    description: ""
+  - label: Partproductcategoryid
+    column: PartProductCategoryId
+    description: ""
+  - label: Partproductcategory
+    column: PartProductCategory
+    description: ""
+  - label: Partsizebucketid
+    column: PartSizeBucketId
+    description: ""
+  - label: Partsizebucket
+    column: PartSizeBucket
+    description: ""
+  - label: Partreportinggroup1id
+    column: PartReportingGroup1Id
+    description: ""
+  - label: Partreportinggroup1
+    column: PartReportingGroup1
+    description: ""
+  - label: Partreportinggroup2id
+    column: PartReportingGroup2Id
+    description: ""
+  - label: Partreportinggroup2
+    column: PartReportingGroup2
+    description: ""
+  - label: Partreportinggroup3id
+    column: PartReportingGroup3Id
+    description: ""
+  - label: Partreportinggroup3
+    column: PartReportingGroup3
+    description: ""
+  - label: Partreportingfullgroupid
+    column: PartReportingFullGroupId
+    description: ""
+  - label: Partreportingfullgroup
+    column: PartReportingFullGroup
+    description: ""
+  - label: Taxcodeid
+    column: TaxCodeId
+    description: ""
+  - label: Taxcodecode
+    column: TaxCodeCode
+    description: ""
+  - label: Taxcode
+    column: TaxCode
+    description: ""
+measures:
+  - name: total_records
+    label: Total records
+    expression: COUNT(*)
+    description: ""
+    format_preset: humanize
+    valid_percent_of_total: true
+  - name: Weight
+    label: Sum of Weight
+    expression: SUM(Weight)
+    description: ""
+    format_preset: humanize
+    valid_percent_of_total: true
+  - name: PartSize1Code
+    label: Sum of Partsize1code
+    expression: SUM(PartSize1Code)
+    description: ""
+    format_preset: humanize
+    valid_percent_of_total: true
+  - name: PartSize1
+    label: Sum of Partsize1
+    expression: SUM(PartSize1)
+    description: ""
+    format_preset: humanize
+    valid_percent_of_total: true
+available_time_zones:
+  - America/Los_Angeles
+  - America/Chicago
+  - America/New_York
+  - Europe/London
+  - Europe/Paris
+  - Asia/Jerusalem
+  - Europe/Moscow
+  - Asia/Kolkata
+  - Asia/Shanghai
+  - Asia/Tokyo
+  - Australia/Sydney
